@@ -2,8 +2,7 @@
 {
     public static int sumTwoSmallestNumbers(int[] numbers)
     {
-        int[] numb = [1, 2, 3, 4];
-        var sortedNumbers= numbers.OrderBy(numb => numb).ToArray();
+        var sortedNumbers= numbers.OrderBy(num => num).ToArray();
 
         return sortedNumbers[0] + sortedNumbers[1];
     }
